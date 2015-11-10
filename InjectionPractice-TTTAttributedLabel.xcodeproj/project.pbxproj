@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CA2B0B78BFED7E56A0583D7 /* Pods_InjectionPractice_TTTAttributedLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139C410D79610FBC2B858404 /* Pods_InjectionPractice_TTTAttributedLabel.framework */; };
 		D96BAB4C1BF13F430078E53F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96BAB4B1BF13F430078E53F /* AppDelegate.swift */; };
 		D96BAB4E1BF13F430078E53F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96BAB4D1BF13F430078E53F /* ViewController.swift */; };
 		D96BAB511BF13F430078E53F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96BAB4F1BF13F430078E53F /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		139C410D79610FBC2B858404 /* Pods_InjectionPractice_TTTAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InjectionPractice_TTTAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6307BED8E554E04FD99A15C8 /* Pods-InjectionPractice-TTTAttributedLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InjectionPractice-TTTAttributedLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InjectionPractice-TTTAttributedLabel/Pods-InjectionPractice-TTTAttributedLabel.debug.xcconfig"; sourceTree = "<group>"; };
+		AFEEEB4D7E3A21F17C6268EF /* Pods-InjectionPractice-TTTAttributedLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InjectionPractice-TTTAttributedLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-InjectionPractice-TTTAttributedLabel/Pods-InjectionPractice-TTTAttributedLabel.release.xcconfig"; sourceTree = "<group>"; };
 		D96BAB481BF13F430078E53F /* InjectionPractice-TTTAttributedLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InjectionPractice-TTTAttributedLabel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96BAB4B1BF13F430078E53F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D96BAB4D1BF13F430078E53F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,7 @@
 		D96BAB521BF13F430078E53F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D96BAB551BF13F430078E53F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D96BAB571BF13F430078E53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96BAB5D1BF140230078E53F /* InjectionPractice-TTTAttributedLabel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InjectionPractice-TTTAttributedLabel-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +34,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA2B0B78BFED7E56A0583D7 /* Pods_InjectionPractice_TTTAttributedLabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59DCFD9CB9CB24768C80E026 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				139C410D79610FBC2B858404 /* Pods_InjectionPractice_TTTAttributedLabel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A5617ECBB951E9678CEDA42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6307BED8E554E04FD99A15C8 /* Pods-InjectionPractice-TTTAttributedLabel.debug.xcconfig */,
+				AFEEEB4D7E3A21F17C6268EF /* Pods-InjectionPractice-TTTAttributedLabel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D96BAB3F1BF13F430078E53F = {
 			isa = PBXGroup;
 			children = (
 				D96BAB4A1BF13F430078E53F /* InjectionPractice-TTTAttributedLabel */,
 				D96BAB491BF13F430078E53F /* Products */,
+				7A5617ECBB951E9678CEDA42 /* Pods */,
+				59DCFD9CB9CB24768C80E026 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +85,7 @@
 				D96BAB521BF13F430078E53F /* Assets.xcassets */,
 				D96BAB541BF13F430078E53F /* LaunchScreen.storyboard */,
 				D96BAB571BF13F430078E53F /* Info.plist */,
+				D96BAB5D1BF140230078E53F /* InjectionPractice-TTTAttributedLabel-Bridging-Header.h */,
 			);
 			path = "InjectionPractice-TTTAttributedLabel";
 			sourceTree = "<group>";
@@ -71,9 +97,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D96BAB5A1BF13F430078E53F /* Build configuration list for PBXNativeTarget "InjectionPractice-TTTAttributedLabel" */;
 			buildPhases = (
+				D397AB77748DCFEB0E515186 /* Check Pods Manifest.lock */,
 				D96BAB441BF13F430078E53F /* Sources */,
 				D96BAB451BF13F430078E53F /* Frameworks */,
 				D96BAB461BF13F430078E53F /* Resources */,
+				A20CB77D294E64DD73325FCA /* Embed Pods Frameworks */,
+				D5C8D80810946998D525536D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -90,6 +119,7 @@
 		D96BAB401BF13F430078E53F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Terry Bu";
 				TargetAttributes = {
@@ -128,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A20CB77D294E64DD73325FCA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InjectionPractice-TTTAttributedLabel/Pods-InjectionPractice-TTTAttributedLabel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D397AB77748DCFEB0E515186 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5C8D80810946998D525536D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InjectionPractice-TTTAttributedLabel/Pods-InjectionPractice-TTTAttributedLabel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D96BAB441BF13F430078E53F /* Sources */ = {
@@ -244,23 +322,30 @@
 		};
 		D96BAB5B1BF13F430078E53F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6307BED8E554E04FD99A15C8 /* Pods-InjectionPractice-TTTAttributedLabel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "InjectionPractice-TTTAttributedLabel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.terrybu.InjectionPractice-TTTAttributedLabel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InjectionPractice-TTTAttributedLabel/InjectionPractice-TTTAttributedLabel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D96BAB5C1BF13F430078E53F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFEEEB4D7E3A21F17C6268EF /* Pods-InjectionPractice-TTTAttributedLabel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "InjectionPractice-TTTAttributedLabel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.terrybu.InjectionPractice-TTTAttributedLabel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InjectionPractice-TTTAttributedLabel/InjectionPractice-TTTAttributedLabel-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -283,6 +368,7 @@
 				D96BAB5C1BF13F430078E53F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
